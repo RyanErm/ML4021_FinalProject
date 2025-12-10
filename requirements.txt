@@ -1,4 +1,6 @@
 pandas
 numpy
-matplotlib.pyplot
-sci-kit learn
+matplotlib
+scikit-learn
+torch
+ipykernel
