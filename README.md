@@ -19,8 +19,8 @@ Operating Systems: MacOS/Linux and Windows
 ### File structure
 ```mermaid
 graph TD
-    A[ML4021_FinalProject] --> B(data);
-    A --> C(notebooks);
+    A[ML4021_FinalProject] --> B(notebooks);
+    A --> C(data);
     B --> D(eda.ipynb);
     B --> E(ensemble.ipynb);
     B --> F(final_test.ipynb);
@@ -32,5 +32,15 @@ graph TD
     A --> L(.gitignore)
     A --> M(README.md)
     A --> N(requirements.txt)
+    J --> O(nntraining.png)
+    J --> P(svr.png)
+    J --> Q(ridge.png)
+    C --> R(cleaning_and_splitting.ipynb)
+    C --> S(anime.csv)
+    C --> T(X_test_data.csv)
+    C --> U(X_train_data.csv)
+    C --> V(Y_test_data.csv)
+    C --> W(Y_train_data.csv)
 ```
+
 
