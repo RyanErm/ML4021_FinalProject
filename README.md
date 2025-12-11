@@ -32,5 +32,7 @@ graph TD
     A --> L(.gitignore)
     A --> M(README.md)
     A --> N(requirements.txt)
+    J --> O(nntraining.png)
 ```
+
 
