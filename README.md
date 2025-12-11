@@ -1,8 +1,5 @@
 ## Repository Overview
 
-### Project Description
-In this repository, we have implemented 4 different machine learning models (SVM, Neural Network, Random Forest, Ridge Regression) to attempt to predict the score of an anime show based on many different feature columns. The data used for this project was acquired from [Kaggle](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020) and perfomed exploratory analysis to understand and visualize the trends directly visible. For each model, we used a validation split of the data to measure the out of sample accuracy, then saved the test data for the final evaluation of the optimized models. 
-
 ### Software and Platform
 This is project was run on Python 3.11
 
@@ -26,13 +23,10 @@ graph TD
     B --> F(final_test.ipynb);
     B --> G(neuralnet_cv.ipynb);
     B --> H(ridge.ipynb);
-    B --> I(svm.ipynb);
+    B --> I(svr.ipynb);
     A --> J(outputs);
     J --> K(tree.png)
     A --> L(.gitignore)
     A --> M(README.md)
     A --> N(requirements.txt)
-    J --> O(nntraining.png)
 ```
-
-
